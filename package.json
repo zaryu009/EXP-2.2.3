@@ -1,0 +1,22 @@
+{
+  "name": "transaction-system",
+  "version": "1.0.0",
+  "description": "Transaction system with rollback using MongoDB sessions",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "node tests/transaction.test.js"
+  },
+  "keywords": ["transactions", "rollback", "mongodb", "nodejs"],
+  "author": "Ekroop Singh Vasir",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
